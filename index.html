@@ -4,9 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+  <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
+  <header>
+    <h1>GIPHY SOIREE</h1>
+  </header>
+  <main>
+    <form action="#" >
+      <label for="gif">
+        <input type="text" name="gif" id="gifsearch">
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <button type="button">Clear Memes</button>
+  </main>
+  <section id="container">
+    <img src="https://giphy.com/stories/happy-memorial-day-46776684-58b6" alt="gif">
+  </section>
+
+
+
 
 <script src="https://unpkg.com/jquery"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
@@ -14,3 +33,11 @@
 </body>
 
 </html>
+
+
+<!-- 1. Build out a working form, bare bones html structure. No CSS -->
+<!-- 1.1a simple form, and a clear memes button, and container  -->
+<!-- 2. Build out the JS Functuionality for appending a img from form input -->
+<!-- 3. Functionality, remove img elements from their container via button  -->
+<!-- 4. Figure out the axios.get() to recieve data from Giphy -->
+<!-- 5. We splice in our Giphy API data into step #2 as the img src value -->
